@@ -52,31 +52,20 @@ tw-sidebar tw-icon.undo {
 }
 </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="start" tags="" position="702,274" size="100,100">
 
+(set: _list to (array: &quot;sour&quot;, &quot;sweet&quot;))
+HELLO! Click (link-goto: &quot;here&quot;, (shuffled: ..._list)&#39;s 1st) to collect a raisin.
 
-
-(set: _list to (array: &quot;sour&quot;, &quot;sweet&quot;, &quot;salty&quot;))
-HELLO! Click (link-goto: &quot;here&quot;, (shuffled: ..._list)&#39;s 1st) to collect a raisin.</tw-passagedata><tw-passagedata pid="2" name="Collect raisin" tags="" position="702,424" size="100,100">  You got a (either: &quot;SWEET&quot;, &quot;SALTY&quot;, &quot;SOUR&quot;) raisin.</tw-passagedata><tw-passagedata pid="3" name="sweet" tags="" position="833,393" size="100,100">
-
-
+&lt;img alt=&quot;bowl&quot; src=&quot;bowl.jpg&quot; width=&quot;400px&quot; /&gt; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &lt;img alt=&quot;sticks&quot; src=&quot;sticks.jpg&quot; width=&quot;400px&quot; /&gt;</tw-passagedata><tw-passagedata pid="2" name="sweet" tags="" position="833,338" size="100,100">
 
 YUM! You picked a SWEET raisin :)
+&lt;img alt=&quot;thechosenone&quot; src=&quot;thechosenone.jpg&quot; width=&quot;400px&quot; /&gt;
 
-
-{(live: 3s)[(link: &quot;Proceed&quot;)[(goto-url: &#39;https://james-scott.uk/raisin_things/home/&#39;)]]}</tw-passagedata><tw-passagedata pid="4" name="Salty" tags="" position="832,270" size="100,100">
-
-
-
-UNLUCKY! You picked a SALTY raisin :|
-
-
-{(live: 3s)[(link: &quot;Proceed&quot;)[(goto-url: &#39;https://james-scott.uk/raisin_things/home/&#39;)]]}</tw-passagedata><tw-passagedata pid="5" name="sour" tags="" position="833,138" size="100,100">
-
-
+{(live: 3s)[(link: &quot;Proceed&quot;)[(goto-url: &#39;https://james-scott.uk/raisin_things/home/&#39;)]]}</tw-passagedata><tw-passagedata pid="3" name="sour" tags="" position="836,214" size="100,100">
 
 YUCK! You picked a SOUR raisin :(
+&lt;img alt=&quot;thechosenone&quot; src=&quot;thechosenone.jpg&quot; width=&quot;400px&quot; /&gt;
 
-
-{(live: 3s)[(link: &quot;Proceed&quot;)[(goto-url: &#39;https://james-scott.uk/raisin_things/home/&#39;)]]}</tw-passagedata><tw-passagedata pid="6" name="Proceed" tags="" position="984,253" size="100,100">(goto-url: &quot;https://james-scott.uk/raisin_things/home/&quot;)</tw-passagedata><tw-passagedata pid="7" name="[Proceed" tags="" position="1000,408" size="100,100">(goto-url: &quot;https://james-scott.uk/raisin_things/home/&quot;)</tw-passagedata></tw-storydata>
+{(live: 3s)[(link: &quot;Proceed&quot;)[(goto-url: &#39;https://james-scott.uk/raisin_things/home/&#39;)]]}</tw-passagedata><tw-passagedata pid="4" name="Proceed" tags="" position="984,253" size="100,100">(goto-url: &quot;https://james-scott.uk/raisin_things/home/&quot;)</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
