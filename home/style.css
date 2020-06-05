@@ -44,7 +44,9 @@ body {
 }
 
 
-
+a.boardlink {
+  color: white;
+}
 
 .scroll-down {
   position: fixed;
